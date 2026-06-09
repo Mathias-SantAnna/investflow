@@ -1,5 +1,6 @@
 namespace Portfolio.Domain.ValueObjects;
 
+
 public class Money : IEquatable<Money>
 {
     public decimal Amount { get; }
